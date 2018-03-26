@@ -1,0 +1,3 @@
+module Gdpr
+  # Your code goes here...
+end
