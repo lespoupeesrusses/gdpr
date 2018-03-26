@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
   s.description = "Adds a GDPR cookie consent and provides a simple checklist"
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
+  s.require_paths = ['./app/assets/stylesheets']
 
   s.add_dependency 'rails'
   s.add_dependency 'js_cookie_rails'

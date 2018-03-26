@@ -1,4 +1,4 @@
-.cookies-consent
+.gdpr__cookie_consent
   position: fixed
   z-index: 999
   right: 0
@@ -6,28 +6,28 @@
   left: 0
   padding: 0 20px
   text-align: center
-  border-top: 1px solid $border-grey
+  border-top: 1px solid #ccc
   background: #fff
 
-  +breakpoint(xs)
+  @media only screen and (max-width : 480px)
     font-size: 12px
     position: initial
 
-  .cookies-consent__text
+  &__text
     display: inline-block
     padding: 20px 160px
 
-    +breakpoint(xs)
+    @media only screen and (max-width : 480px)
       padding: 20px 0
 
-  .cookies-consent__buttons
+  &__buttons
     position: absolute
     right: 10px
     top: 12px
 
-    +breakpoint(xs)
+    @media only screen and (max-width : 480px)
       position: initial
       margin-bottom: 10px
 
-    .cookies-consent-ok
+    &__ok
       padding: 15px 21px 15px !important

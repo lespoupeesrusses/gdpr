@@ -1,8 +1,5 @@
-# Gdpr
-Short description and motivation.
-
-## Usage
-How to use my plugin.
+# GDPR
+Helps getting your Rails app GDPR compliant
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -21,7 +18,24 @@ Or install it yourself as:
 $ gem install gdpr
 ```
 
+Add this to layout:
+```ruby
+  <%= render 'gdpr/cookie_consent' %>
+```
+
+Add this to javascripts:
+```js
+//= require gdpr
+```
+
+Add this to stylesheets:
+```sass
+@import 'gdpr'
+```
+
 ## Checklist
+
+https://www.eugdpr.org/
 
 [x] Cookie consent
 [ ] Privacy policy
