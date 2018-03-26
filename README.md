@@ -21,6 +21,12 @@ Or install it yourself as:
 $ gem install gdpr
 ```
 
+## Checklist
+
+[x] Cookie consent
+[ ] Privacy policy
+[ ] Optin must exist, and must not be checked by default
+
 ## Contributing
 Contribution directions go here.
 

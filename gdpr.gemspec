@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = Gdpr::VERSION
   s.authors     = ["Arnaud Levy"]
   s.email       = ["alevy@lespoupees.paris"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Gdpr."
-  s.description = "TODO: Description of Gdpr."
+  s.homepage    = "https://github.com/lespoupeesrusses/gdpr"
+  s.summary     = "Helps getting your Rails app GDPR compliant"
+  s.description = "Adds a GDPR cookie consent and provides a simple checklist"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.5"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency 'rails'
+  s.add_dependency 'js_cookie_rails'
+  s.add_dependency 'sass-rails'
 end

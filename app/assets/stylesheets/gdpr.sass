@@ -1,0 +1,33 @@
+.cookies-consent
+  position: fixed
+  z-index: 999
+  right: 0
+  bottom: 0
+  left: 0
+  padding: 0 20px
+  text-align: center
+  border-top: 1px solid $border-grey
+  background: #fff
+
+  +breakpoint(xs)
+    font-size: 12px
+    position: initial
+
+  .cookies-consent__text
+    display: inline-block
+    padding: 20px 160px
+
+    +breakpoint(xs)
+      padding: 20px 0
+
+  .cookies-consent__buttons
+    position: absolute
+    right: 10px
+    top: 12px
+
+    +breakpoint(xs)
+      position: initial
+      margin-bottom: 10px
+
+    .cookies-consent-ok
+      padding: 15px 21px 15px !important
