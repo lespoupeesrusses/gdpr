@@ -5,7 +5,7 @@ require "gdpr/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "GDPR"
+  s.name        = "gdpr"
   s.version     = Gdpr::VERSION
   s.authors     = ["Arnaud Levy"]
   s.email       = ["alevy@lespoupees.paris"]
