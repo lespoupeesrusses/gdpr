@@ -1,0 +1,7 @@
+it:
+  gdpr:
+    privacy_policy: https://www.eugdpr.org
+    cookie_consent:
+      text: "Proseguendo nella navigazione del Sito, l'utente acconsente all'utilizzo dei cookie allo scopo di fornire funzioni personalizzate e di misurazione dell'audience."
+      button: "Ho capito"
+      learn_more_html: "Per maggiori informazioni e per configurare i cookie: <a href=\"%{link}\" target=\"_blank\">cliccare qui</a>"

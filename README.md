@@ -33,6 +33,8 @@ Add this to stylesheets:
 @import 'gdpr/gdpr'
 ```
 
+Set the privacy policy url in the locales.
+
 ## Checklist
 
 https://www.eugdpr.org/
