@@ -45,8 +45,12 @@ https://www.eugdpr.org/
 [ ] Users must have access to their data
 [ ] Users must be able to modify their data 
 
+## Thanks
+
+Inspired by cookies_eu (https://github.com/infinum/cookies_eu), thank you :)
+
 ## Contributing
-Contribution directions go here.
+Feel free to pull request!
 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

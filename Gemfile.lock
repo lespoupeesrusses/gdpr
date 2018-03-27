@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gdpr (1.0.2)
+    gdpr (1.0.3)
       js_cookie_rails
       rails
       sass-rails
