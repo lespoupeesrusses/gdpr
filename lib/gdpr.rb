@@ -3,5 +3,4 @@ require 'gdpr/engine'
 require 'js_cookie_rails'
 
 module Gdpr
-  # Your code goes here...
 end

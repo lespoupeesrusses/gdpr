@@ -25,12 +25,12 @@ Add this to layout:
 
 Add this to javascripts:
 ```js
-//= require gdpr
+//= require gdpr/gdpr
 ```
 
 Add this to stylesheets:
 ```sass
-@import 'gdpr'
+@import 'gdpr/gdpr'
 ```
 
 ## Checklist
@@ -39,7 +39,11 @@ https://www.eugdpr.org/
 
 [x] Cookie consent
 [ ] Privacy policy
-[ ] Optin must exist, and must not be checked by default
+[ ] There must be an optin
+[ ] Optin must be unchecked by default
+[ ] Account must be deletable
+[ ] Users must have access to their data
+[ ] Users must be able to modify their data 
 
 ## Contributing
 Contribution directions go here.
