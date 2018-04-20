@@ -25,12 +25,12 @@ Add this to layout:
 
 Add this to javascripts:
 ```js
-//= require gdpr/gdpr
+//= require gdpr/cookie_consent
 ```
 
 Add this to stylesheets:
 ```sass
-@import 'gdpr/gdpr'
+@import 'gdpr/cookie_consent'
 ```
 
 Set the privacy policy url in the locales.
