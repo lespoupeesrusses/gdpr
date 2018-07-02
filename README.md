@@ -39,13 +39,13 @@ Set the privacy policy url in the locales.
 
 https://www.eugdpr.org/
 
-[x] Cookie consent
-[ ] Privacy policy
-[ ] There must be an optin
-[ ] Optin must be unchecked by default
-[ ] Account must be deletable
-[ ] Users must have access to their data
-[ ] Users must be able to modify their data 
+- [x] Cookie consent
+- [ ] Privacy policy
+- [ ] There must be an optin
+- [ ] Optin must be unchecked by default
+- [ ] Account must be deletable
+- [ ] Users must have access to their data
+- [ ] Users must be able to modify their data 
 
 ## Thanks
 
