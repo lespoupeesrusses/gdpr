@@ -1,0 +1,7 @@
+zh:
+  gdpr:
+    privacy_policy: https://www.eugdpr.org
+    cookie_consent:
+      text: '在瀏覽本網站之時，您同意本網站收集閣下Cookies（如有）及用於獲取配置數據以及分析上網認識的瀏覽習慣。Cookies可免除閣下每次瀏覽網站是重新登記的麻煩，並追蹤閣下喜歡的網頁主題選項，為閣下提供更個性化服務。阁下如不希望接受Cookies，可以修改有关互联网选项或阁下计算机系统的浏览选项，但阁下可能因此无法使用或启动本网站的若干功能。'
+      button: "同意"
+      learn_more_html: "<a href=\"%{link}\" target=\"_blank\">關於Cookies以及設置閣下計算機系統的瀏</a>"
