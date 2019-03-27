@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails'
   s.add_dependency 'js_cookie_rails'
-  s.add_dependency 'sass-rails'
+  s.add_dependency 'sassc-rails'
 end
