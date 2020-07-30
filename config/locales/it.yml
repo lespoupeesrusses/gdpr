@@ -1,6 +1,6 @@
 it:
   gdpr:
-    privacy_policy: https://www.eugdpr.org
+    privacy_policy: https://gdpr.eu/cookies/
     cookie_consent:
       text: "Proseguendo nella navigazione del Sito, l'utente acconsente all'utilizzo dei cookie allo scopo di fornire funzioni personalizzate e di misurazione dell'audience."
       button: "Ho capito"

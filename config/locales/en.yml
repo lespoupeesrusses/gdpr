@@ -1,6 +1,6 @@
 en:
   gdpr:
-    privacy_policy: https://www.eugdpr.org
+    privacy_policy: https://gdpr.eu/cookies/
     cookie_consent:
       text: 'By navigating on this website, you agree to our use of cookies to personalize certain website features and to measure the audience and use of this website.'
       button: "I agree"
