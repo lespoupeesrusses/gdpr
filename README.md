@@ -37,7 +37,7 @@ Set the privacy policy url in the locales.
 
 ## Usage
 This will display a cookie banner with both Validate & Reject buttons.
-You can force the re-display of the banner with a button/link including a ".js-gdpr__cookie_consent__display_again" class.
+You can force the re-display of the banner with a button/link including a `.js-gdpr__cookie_consent__display_again` class.
 
 
 If you have a GTAG marker you should use it like this
