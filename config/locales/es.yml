@@ -2,6 +2,7 @@ es:
   gdpr:
     privacy_policy: https://gdpr.eu/cookies/
     cookie_consent:
-      text: "Al continuar su navegación por este sitio, acepta la utilización de cookies, que tienen por objeto proponerle funcionalidades personalizadas y realizar mediciones de audiencia."
-      button: "Entendido"
+      button_ko: "Denegar"
+      button_ok: "Validar"
       learn_more_html: "Para saber más y definir la configuración de estas cookies: <a href=\"%{link}\" target=\"_blank\">hacer clic aquí</a>."
+      text: "Al continuar su navegación por este sitio, acepta la utilización de cookies, que tienen por objeto proponerle funcionalidades personalizadas y realizar mediciones de audiencia."

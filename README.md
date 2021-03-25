@@ -35,6 +35,28 @@ Add this to stylesheets:
 
 Set the privacy policy url in the locales.
 
+## Usage
+This will display a cookie banner with both Validate & Reject buttons.
+You can force the re-display of the banner with a button/link including a ".js-gdpr__cookie_consent__display_again" class.
+
+
+If you have a GTAG marker you should use it like this
+```
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    if (Cookies.get('gdpr.cookie_consent.ok') !== 'true') {
+      // Default ad_storage to 'denied'.
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied'
+      });
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXX');
+</script>
+```
+
 ## Checklist
 
 https://www.eugdpr.org/
@@ -45,7 +67,7 @@ https://www.eugdpr.org/
 - [ ] Optin must be unchecked by default
 - [ ] Account must be deletable
 - [ ] Users must have access to their data
-- [ ] Users must be able to modify their data 
+- [ ] Users must be able to modify their data
 
 ## Thanks
 
