@@ -74,7 +74,12 @@ window.cookieConsent = {
     }
 }.invoke();
 
-document.addEventListener('DOMContentLoaded', function () {
-    'use strict';
+
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
     window.cookieConsent.init();
-});
+} else {
+    window.addEventListener('DOMContentLoaded', function () {
+        'use strict';
+        window.cookieConsent.init();
+    });
+}
