@@ -52,13 +52,13 @@ window.cookieConsent = {
         }
     },
 
-    setCookieAcceptance: function (value) {
+    setCookieAcceptance: function (accepted) {
         'use strict';
-        Cookies.set('gdpr.cookie_consent.ok', value, { path: '/', expires: 365 });
+        Cookies.set('gdpr.cookie_consent.ok', accepted, { path: '/', expires: 365 });
         this.displayBanner(false);
-        if (value) {
-            if (window.gtag !== undefined) {
-                gtag('consent', 'update', {
+        if (accepted) {
+            if (typeof window.gtag !== 'undefined') {
+                window.gtag('consent', 'update', {
                     'ad_storage': 'granted',
                     'analytics_storage': 'granted'
                 });
