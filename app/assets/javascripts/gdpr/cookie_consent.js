@@ -7,14 +7,15 @@ window.cookieConsent = {
         this.cookieBanner = document.querySelector('.js-gdpr__cookie_consent');
         this.cookieConsentOkButton = document.querySelector('.js-gdpr__cookie_consent__buttons__ok');
         this.cookieConsentKoButton = document.querySelector('.js-gdpr__cookie_consent__buttons__ko');
-        this.displayAgain = document.querySelector('.js-gdpr__cookie_consent__display_again');
+        this.displayAgainButtons = document.querySelectorAll('.js-gdpr__cookie_consent__display_again');
         this.bindActions();
         this.manageBannerDisplay();
     },
 
     bindActions: function () {
         'use strict';
-        var that = this;
+        var that = this,
+            i;
         if (this.cookieConsentOkButton) {
             this.cookieConsentOkButton.addEventListener('click', function () {
                 that.setCookieAcceptance(true);
@@ -25,8 +26,8 @@ window.cookieConsent = {
                 that.setCookieAcceptance(false);
             });
         }
-        if (this.displayAgain) {
-            this.displayAgain.addEventListener('click', function (e) {
+        for (i = 0; i < this.displayAgainButtons.length; i += 1) {
+            this.displayAgainButtons[i].addEventListener('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
                 that.displayBanner(true);
