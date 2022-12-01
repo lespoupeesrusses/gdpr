@@ -4,5 +4,5 @@ es:
     cookie_consent:
       button_ko: "Denegar"
       button_ok: "Validar"
-      learn_more_html: "Para saber más y definir la configuración de estas cookies: <a href=\"%{link}\" target=\"_blank\">hacer clic aquí</a>."
+      learn_more_html: "Para saber más y definir la configuración de estas cookies: <a href=\"%{link}\" target=\"_blank\" rel=\"noopener\">hacer clic aquí</a>."
       text: "Al continuar su navegación por este sitio, acepta la utilización de cookies, que tienen por objeto proponerle funcionalidades personalizadas y realizar mediciones de audiencia."

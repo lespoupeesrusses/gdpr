@@ -4,5 +4,5 @@ it:
     cookie_consent:
       button_ko: "Rifiutare"
       button_ok: "Convalidare"
-      learn_more_html: "Per maggiori informazioni e per configurare i cookie: <a href=\"%{link}\" target=\"_blank\">cliccare qui</a>."
+      learn_more_html: "Per maggiori informazioni e per configurare i cookie: <a href=\"%{link}\" target=\"_blank\" rel=\"noopener\">cliccare qui</a>."
       text: "Proseguendo nella navigazione del Sito, l'utente acconsente all'utilizzo dei cookie allo scopo di fornire funzioni personalizzate e di misurazione dell'audience."

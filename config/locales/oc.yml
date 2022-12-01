@@ -4,5 +4,5 @@ oc:
     cookie_consent:
       button_ko: "Refusar"
       button_ok: "Validar"
-      learn_more_html: "Per ne saber mai e configurar aquestes cookies : <a href=\"%{link}\" target=\"_blank\">cliquer ici</a>."
+      learn_more_html: "Per ne saber mai e configurar aquestes cookies : <a href=\"%{link}\" target=\"_blank\" rel=\"noopener\">cliquer ici</a>."
       text: "En contunhant la navigation sus aqueste site, acceptatz l’utilizacion de cookies per vos prepausar especialament de foncionalitats personalizadas e per realizar de mesurea d’audiéncia."

@@ -4,5 +4,5 @@ de:
     cookie_consent:
       button_ko: "Verweigern"
       button_ok: "Bestätigen"
-      learn_more_html: "Für weitere Informationen und Einstellen der Cookies : <a href=\"%{link}\" target=\"_blank\">bitte hier klicken</a>."
+      learn_more_html: "Für weitere Informationen und Einstellen der Cookies : <a href=\"%{link}\" target=\"_blank\" rel=\"noopener\">bitte hier klicken</a>."
       text: "Indem Sie Ihre Navigation auf dieser Website fortsetzen, akzeptieren Sie die Verwendung von Cookies, die insbesondere dazu dienen, Ihnen personalisierte Funktionen anzubieten und Ihre Besuche auf der Website zu erfassen."

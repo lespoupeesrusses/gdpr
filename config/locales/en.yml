@@ -4,5 +4,5 @@ en:
     cookie_consent:
       button_ko: "Deny"
       button_ok: "Accept"
-      learn_more_html: "To learn more about cookies and how to customize your cookies options: <a href=\"%{link}\" target=\"_blank\">click here</a>."
+      learn_more_html: "To learn more about cookies and how to customize your cookies options: <a href=\"%{link}\" target=\"_blank\" rel=\"noopener\">click here</a>."
       text: 'By navigating on this website, you agree to our use of cookies to personalize certain website features and to measure the audience and use of this website.'

@@ -4,5 +4,5 @@ fr:
     cookie_consent:
       button_ko: "Refuser"
       button_ok: "Accepter"
-      learn_more_html: "Pour en savoir plus et paramétrer ces cookies : <a href=\"%{link}\" target=\"_blank\">cliquer ici</a>."
+      learn_more_html: "Pour en savoir plus et paramétrer ces cookies : <a href=\"%{link}\" target=\"_blank\" rel=\"noopener\">cliquer ici</a>."
       text: "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de Cookies pour vous proposer notamment des fonctionnalités personnalisées et pour réaliser des mesures d’audience."
