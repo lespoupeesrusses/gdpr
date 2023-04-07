@@ -1,0 +1,25 @@
+.gdpr__cookie_consent {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    bottom: 15px;
+    display: none;
+    font-size: 14px;
+    left: 15px;
+    max-width: 500px;
+    padding: 15px;
+    position: fixed;
+    right: 15px;
+    z-index: 9999;
+}
+
+.gdpr__cookie_consent a {
+    text-decoration: underline !important;
+}
+
+.gdpr__cookie_consent__text {
+    margin-bottom: 15px;
+}
+
+.gdpr__cookie_consent__buttons__ko {
+    margin-left: 3px;
+}
