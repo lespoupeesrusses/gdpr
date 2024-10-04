@@ -5,6 +5,9 @@ window.cookieConsent = {
     init: function () {
         'use strict';
         this.cookieBanner = document.querySelector('.js-gdpr__cookie_consent');
+        if (!this.cookieBanner) {
+            return;
+        }
         this.cookieConsentOkButton = document.querySelector('.js-gdpr__cookie_consent__buttons__ok');
         this.cookieConsentKoButton = document.querySelector('.js-gdpr__cookie_consent__buttons__ko');
         this.displayAgainButtons = document.querySelectorAll('.js-gdpr__cookie_consent__display_again');
